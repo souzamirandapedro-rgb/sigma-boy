@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Aura Status</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="bg-overlay"></div>
+
+    <main class="container">
+        <header class="hero">
+            <h1 class="glitch" data-text="SIGMA">SIGMA</h1>
+            <p class="subtitle">Controle o seu foco. Sinta a sua Aura.</p>
+        </header>
+
+        <section class="aura-card">
+            <div class="aura-display">
+                <div class="aura-glow" id="auraGlow"></div>
+                <div class="aura-level">
+                    <span class="counter" id="auraCounter">+1,000</span>
+                    <span class="label">AURA POINTS</span>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-increase" onclick="alterarAura(500)">Decisão Sábia (+500 Aura)</button>
+                <button class="btn btn-decrease" onclick="alterarAura(-300)">Hesitou em Público (-300 Aura)</button>
+            </div>
+            <button class="btn-reset" onclick="resetAura()">Resetar Mindset</button>
+        </section>
+
+        <section class="rules-grid">
