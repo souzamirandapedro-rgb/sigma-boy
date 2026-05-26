@@ -1,6 +1,6 @@
 # sigma-boy<div align="center">
   <h1 align="center">Olá, não sou um sigma</h1>
-  <h3 align="center">Farmar aura</h3>
+  <h3 align="center">Como não farmar aura</h3>
 </div>
 
 <div align="center">
