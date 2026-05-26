@@ -1,5 +1,5 @@
 # sigma-boy<div align="center">
-  <h1 align="center">Olá, eu sou um sigma</h1>
+  <h1 align="center">Olá, não sou um sigma</h1>
   <h3 align="center">Farmar aura</h3>
 </div>
 
